@@ -9,7 +9,7 @@ Quantumult X 脚本:
 #本地
 ^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body Gear.js
 #远程挂载
-https://raw.githubusercontent.com/FForeverand/Quantumult-X/master/Gear.js
+^https?:\/\/buy\.itunes\.apple\.com\/verifyReceipt url script-response-body https://raw.githubusercontent.com/FForeverand/Quantumult-X/master/Gear.js
 
 [mitm]
 
