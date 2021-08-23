@@ -1,4 +1,4 @@
-  {
+   {
   "name": "FForeverand",
   "author": "由FForeverand重新编辑",
   "desc": "自用。该订阅仅适用于 elecV2P，与其他软件并不兼容。转载请注明FForeverand",
@@ -19,7 +19,7 @@
       "time": "11 2,11 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://qxnav.com/rules/QuantumultX/js/zwf234/jd_opencard_Daddy.js"
+        "target": "https://qxnav.com/rules/QuantumultX/js/zwf234/jd_opencard_Daddy.js"
       }
     },	
 	   {
@@ -37,7 +37,7 @@
       "time": "0 0 0,5,9,14,20 * *",
       "job": {
         "type": "runjs",
-        "target": "https://ghproxy.com/https://qxnav.com/rules/QuantumultX/js/zwf234/jx_hotballoon.js"
+        "target": "https://qxnav.com/rules/QuantumultX/js/zwf234/jx_hotballoon.js"
       }
     },	
 	   {
@@ -47,6 +47,61 @@
       "job": {
         "type": "runjs",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/smiek2221/scripts/master/gua_wealth_island.js"
+      }
+    },	
+	       {
+      "name": "财富岛提现",
+      "type": "cron",
+      "time": "10 0,20 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/Aaron-lv/sync/jd_scripts/jd_cfdtx.js"
+      }
+    },	
+	
+	  {
+      "name": "早起福利",
+      "type": "cron",
+      "time": "30 6 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_goodMorning.js"
+      }
+    },	
+	  {
+      "name": "欧洲狂欢杯",
+      "type": "cron",
+      "time": "57 59 9  * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/shufflewzc/faker2/main/jd_europeancup.js"
+      }
+    },	
+	  {
+      "name": "签到领现金兑换",
+      "type": "cron",
+      "time": "0 0 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/cdle/jd_study/main/jd_cash_exchange.js"
+      }
+    },	
+	  {
+      "name": "愤怒的锦鲤",
+      "type": "cron",
+      "time": "0 0 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://ghproxy.com/https://raw.githubusercontent.com/cdle/jd_study/main/jd_angryKoi.js"
+      }
+    },	
+	  {
+      "name": "燃旅夏季",
+      "type": "cron",
+      "time": "12 0,6-23/2 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://qxnav.com/rules/QuantumultX/js/zwf234/ranlv.js"
       }
     }
   ]
