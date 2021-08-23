@@ -12,6 +12,9 @@
         "type": "runjs",
         "target": "https://ghproxy.com/https://raw.githubusercontent.com/zwf234/rules/master/js/jd_Delck.js"
       }
+      }
+  ]
+}
 "* * * * 1/1 ? https://raw.githubusercontent.com/zwf234/rules/master/js/jd_Delck.js, tag=清除京东ck, img-url=https://qxnav.com/rules/QuantumultX/img/jd.png, enabled=true",
         "11 2,11 * * * https://qxnav.com/rules/QuantumultX/js/zwf234/jd_opencard_Daddy.js, tag=奶爸盛典, img-url=https://qxnav.com/rules/QuantumultX/img/jd.png, enabled=true",
         "0 8 * * * https://raw.githubusercontent.com/NobyDa/Script/master/Bahamut/BahamutDailyBonus.js, tag=巴哈姆特签到, img-url=https://qxnav.com/rules/QuantumultX/img/bahamutGame.png",
@@ -490,4 +493,3 @@
         "10 0 8 * * * https://raw.githubusercontent.com/photonmang/quantumultX/master/tuhu/tuhu.js, tag=途虎养车, img-url=https://qxnav.com/rules/QuantumultX/img/tuhu.png, enabled=true",
         "0 0-23/1 * * * https://raw.githubusercontent.com/songyangzz/QuantumultX/master/testflight.js, tag=testflight公测监控, img-url=https://qxnav.com/rules/QuantumultX/img/testflight.png, enabled=true",
         "10 8-22/2 * * * https://raw.githubusercontent.com/Peng-YM/QuanX/master/Tasks/caiyun.js, tag=彩云天气, img-url=https://qxnav.com/rules/QuantumultX/img/caiyun.png, enabled=true"
-    ]
